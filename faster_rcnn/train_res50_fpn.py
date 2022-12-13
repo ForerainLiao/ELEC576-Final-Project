@@ -202,7 +202,7 @@ if __name__ == "__main__":
     parser.add_argument('--wd', '--weight-decay', default=1e-4, type=float,
                         metavar='W', help='weight decay (default: 1e-4)',
                         dest='weight_decay')
-    parser.add_argument('--batch_size', default=8, type=int, metavar='N',
+    parser.add_argument('--batch_size', default=4, type=int, metavar='N',
                         help='batch size when training.')
     parser.add_argument('--aspect-ratio-group-factor', default=3, type=int)
     parser.add_argument("--amp", default=False, help="Use torch.cuda.amp for mixed precision training")
