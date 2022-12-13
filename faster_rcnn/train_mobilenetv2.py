@@ -57,7 +57,7 @@ def main():
 
     VOC_root = "./"  # VOCdevkit
     aspect_ratio_group_factor = 3
-    batch_size = 8
+    batch_size = 4
     amp = False  #   ，  GPU  
 
     # check voc root
